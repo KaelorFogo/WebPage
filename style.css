@@ -33,3 +33,12 @@ footer{
   padding: 20px;
   text-align: center;
 }
+
+.contact-link {
+  color: #007bff; /* Change the link color to blue */
+  text-decoration: none; /* Remove underline */
+}
+
+.contact-link:hover {
+color:red;
+}
