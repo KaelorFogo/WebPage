@@ -1,32 +1,39 @@
+/* Set the background color and dimensions of the HTML element */
 html {
   height: 100%;
   width: 100%;
   background-color: #FDD9B5;
 }
 
+/* Style for images */
 img{
   width: 325px;
   height: 450px;
-  align-items: center;
+  align-items: center; /* This property doesn't affect images, consider removing */
 }
 
+/* Font style for paragraphs */
 p{
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
 }
 
+/* Style for the header section */
 header{
   background-color: #594F3B;
   color: #D1B490;
   padding: 20px;
-  text-align: center;}
+  text-align: center;
+}
 
+/* Style for the main content section */
 main{
   width: 80%;
   text-align: center;
   margin: 35px;
 }
 
+/* Style for the footer section */
 footer{
   background-color: #594F3B;
   color: #D1B490;
@@ -34,11 +41,13 @@ footer{
   text-align: center;
 }
 
+/* Style for contact links */
 .contact-link {
   color: #007bff; /* Change the link color to blue */
   text-decoration: none; /* Remove underline */
 }
 
+/* Style for contact links on hover */
 .contact-link:hover {
-color:red;
+  color: red; /* Change link color on hover to red */
 }
